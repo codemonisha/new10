@@ -1,11 +1,11 @@
 #!/bin/bash
 
 echo "enter the value of n"
-read n
+read $num
 sum=0
-while [ $n -gt 0 ]
+while [ $num -gt 0 ]
 do 
-sum=`expr $sum + $n`
-n=`expr $n - 1`
+sum=`expr $sum + $num`
+num=`expr $num - 1`
 done
 echo "the sum of first n numbers is $sum"
