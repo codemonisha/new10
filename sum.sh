@@ -1,4 +1,5 @@
 #!/bin/bash
+hi
 
 echo "enter the value of n"
 read $num
