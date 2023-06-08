@@ -1,3 +1,3 @@
 #!/bin/bash
-echo Hi this is $1
-echo I am from $2
+echo Hi this is $name 
+echo I am from $place 
